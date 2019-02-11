@@ -1,5 +1,4 @@
 (function () {
-  let container = document.querySelector('.container')
   let countries = [{
     location: 'NEW YORK', timeZone: 'America/New_York'
   }, {
