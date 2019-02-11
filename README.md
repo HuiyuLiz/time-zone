@@ -10,7 +10,7 @@
 ## 取出各地時區
 參考資料 : <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString" target="_blank">Date.prototype.toLocaleString()</a>
 
-使用options設定 toLocaleString 返回的字串，並另外加入 hour12: false (使用24小时制)以及當地時區，以下以台北時間為例。
+使用options設定 toLocaleString 返回的字串，並另外加入 hour12: false (24小时制)以及當地時區，以下以台北時間為例。
     
 ```javascript
     const date = new Date()
