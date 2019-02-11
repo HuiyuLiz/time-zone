@@ -13,11 +13,12 @@
 使用options設定 toLocaleString 返回的字串，並另外加入 hour12: false (使用24小时制)以及當地時區，以下以台北時間為例。
     
 ```javascript
-    //Date 物件是基於世界標準時間 UTC 1970年1月1日開始的毫秒數值來儲存時間
     const date = new Date()
     //year: "numeric" 會顯示 2019，year: "2-digit" 則會顯示12
+    
     const options = { year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: false }
     //date.toLocaleString("語言格式", { timeZone: '時區', 自訂參數})
+    
     console.log(date.toLocaleString("en-US", { timeZone: 'Asia/Taipei', ...options }));    
     //Feb 11, 2019, 16:23:09
 ```
