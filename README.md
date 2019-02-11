@@ -42,4 +42,4 @@
 ## 延伸閱讀
 <a href="https://www.youtube.com/watch?v=DDu78WvmpB0" target="_blank">moment.js 日期時間管理資源庫入門導讀</a>
 
-介紹moment.js 以及在實務上，前後端需注意的時間轉換格式。
+介紹moment.js 以及在實務上，前後端需注意的時間轉換格式(影片1:18)。
