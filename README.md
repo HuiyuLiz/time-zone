@@ -14,12 +14,13 @@
     
 ```javascript
     const date = new Date()
-    //year: "numeric" 會顯示 2019，year: "2-digit" 則會顯示12
     
+    //year: "numeric" 會顯示 2019，year: "2-digit" 則會顯示12    
     const options = { year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: false }
-    //date.toLocaleString("語言格式", { timeZone: '時區', 自訂參數})
     
+    //date.toLocaleString("語言格式", { timeZone: '時區', 自訂參數})    
     console.log(date.toLocaleString("en-US", { timeZone: 'Asia/Taipei', ...options }));    
+    
     //Feb 11, 2019, 16:23:09
 ```
 
