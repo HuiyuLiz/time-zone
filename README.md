@@ -33,7 +33,7 @@
     let mon = str[0].toUpperCase()
     let year = str[2].replace(/,/g, '')
     console.log({time,day,mon,year})
-    //{time: "16:53", day: "11", mon: "FEB", year: "2019"}
+    //{time: "16:23", day: "11", mon: "FEB", year: "2019"}
 ```
 
 將各地時區分別帶入後取出時間，用 innerHTML 渲染至 HTML 中，每秒更新一次資料。
