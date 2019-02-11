@@ -3,7 +3,7 @@
  <a href="https://huiyuliz.github.io/time-zone/" target="_blank">完成品</a>、
  <a href="https://github.com/HuiyuLiz/time-zone" target="_blank">程式碼</a>
  
- 使用了原生JavaScript進行破關，第一次使用 toLocaleString 取得各時區的時間。
+ 採原生JavaScript進行破關，第一次使用 toLocaleString 取得各時區的時間。
 
 
 
@@ -40,6 +40,6 @@
 
 
 ## 延伸閱讀
-<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString" target="_blank">moment.js 日期時間管理資源庫入門導讀</a>
+<a href="https://www.youtube.com/watch?v=DDu78WvmpB0" target="_blank">moment.js 日期時間管理資源庫入門導讀</a>
 
 介紹moment.js 以及在實務上，前後端需注意的時間轉換格式。
