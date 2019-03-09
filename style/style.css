@@ -22,7 +22,7 @@ body {
           align-items: center;
   height: 100vh;
   background-color: #e5e5e5;
-  margin: calc(100% - 540px)/2 0;
+  margin: 72px 0;
 }
 
 .card-header {
@@ -83,17 +83,11 @@ body {
 
 .card-body.bg-light {
   background-color: white;
+  color: black;
 }
 
 .card-body.bg-dark {
   background-color: black;
-}
-
-.card-body.text-white {
   color: white;
-}
-
-.card-body.text-dark {
-  color: black;
 }
 /*# sourceMappingURL=style.css.map */

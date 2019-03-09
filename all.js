@@ -27,6 +27,14 @@
       dates[index].innerHTML = `${day} ${mon}. ${year}`
       let times = document.querySelectorAll('.time')
       times[index].innerHTML = time
+      //  判斷白天夜晚
+      let cards = document.querySelectorAll('.card-body')
+      let hour = Number(time.substring(0, 2))
+      if (hour >= 6 && hour < 18) {
+        cards[index].setAttribute('class', 'card-body bg-light')
+      } else {
+        cards[index].setAttribute('class', 'card-body bg-dark')
+      }
     })
   }
   clock()
